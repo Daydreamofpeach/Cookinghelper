@@ -1,6 +1,7 @@
 {
   "articles": [
     {
+      "name" : "Veggie Stew",
       "id": "1",
       "title": "Veggie Stew",
       "ingredients": [

@@ -10,7 +10,7 @@ export const useFetch = (url) => {
 
     const fetchData = async () => {
       setIsPending(true)
-      
+
       try {
         const res = await fetch(url, { signal: controller.signal })
         if(!res.ok) {
